@@ -14,13 +14,6 @@
 <body>
 
     <style>
-        html, body {
-            width: 100%;
-            height: 100%;
-            margin: 0px;
-            padding: 0px;
-            overflow-x: hidden;
-        }
 
         .svg-wrapper {
             height: 50px;
@@ -114,7 +107,7 @@
         }
 
         #navcontainer {
-            z-index: 3;
+            z-index: 10;
             background-color: black;
         }
 
@@ -557,6 +550,7 @@
         var sticky = navbar.offsetTop;
 
         function scollcontrol() {
+            console.log("test");
             if (window.pageYOffset >= sticky) {
                 navbar.classList.add("sticky")
             } else {
