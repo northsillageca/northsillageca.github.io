@@ -1,0 +1,28 @@
+.firstwatch {
+    display:inline-block;
+    height: 40px !important;
+    width: 100px !important
+    position: absolute;
+    top:10vh;
+    right:2vw;
+    z-index: 4;
+}
+
+.secondwatch {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top:20vh;
+    left:23vw;
+    z-index:2;
+}
+
+.thirdwatch {
+    height: 450px;
+    width: 700px;
+    position: absolute;
+    z-index: 1;
+    top:35vh;
+    left:30vw;
+
+}
