@@ -359,18 +359,44 @@
                 and (min-device-width : 320px)
                 and (max-device-width : 320px) {
 
+                  #navbar{
+                    width:100vw;
+                    display: flex;
+                  }
+
+                  .svg-wrapper{
+                    margin: auto;
+                  }
+
                   .headertext{
                     position: relative;
-                    left:-50px;
+                    left:-18vw;
+                  }
+
+                  .footer{
+                    padding-left: 20% !important;
                   }
                 }
 
                 @media only screen
                   and (min-device-width : 320px)
                   and (max-device-width : 768px) {
+                    .footer{
+                      padding-left: 20% !important;
+                    }
+
+                    #navbar{
+                      width:100vw;
+                      display: flex;
+                    }
+
+                    .svg-wrapper{
+                      margin: auto;
+                    }
+
                     .headertext{
                       position: relative;
-                      left:-50px;
+                      left:-18vw;
                     }
                   }
     </style>
